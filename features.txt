@@ -1,2 +1,0 @@
-- Transformação de tiles funcionando, movimento pra direcoes funcionando porem com bug do timeout
-- CSS incompleto
