@@ -1,0 +1,62 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>2048</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="logo">
+        <p class="title">2048</p>
+      <svg class="line">
+        <line x1="35%" y1="0" x2="65%" style="stroke:#6ab4a3;stroke-width:6" />
+      </svg>
+      <div class="score-board">
+        <p id="score" class="score"></p>
+        <p id="score" class="score"></p>
+        <p id="score" class="score"></p>
+        <p id="score" class="score"></p>
+        <p id="score" class="score">Pontuação:</p>
+        <p id="realscore" class="score">0</p>
+        <p id="record" class="record">Recorde:</p>
+        <p id="realrecord" class="score">12</p>
+        <p id="score" class="score"></p>
+        <p id="score" class="score"></p>
+        <p id="score" class="score"></p>
+        <p id="score" class="score"></p>
+      </div>
+    </div>
+
+    
+
+    <div id="board-background" class="board-background">
+      <div id="tile1" class="board-null-tile"></div>
+      <div id="tile2" class="board-null-tile"></div>
+      <div id="tile3" class="board-null-tile"></div>
+      <div id="tile4" class="board-null-tile"></div>
+      <div id="tile5" class="board-null-tile"></div>
+      <div id="tile6" class="board-null-tile"></div>
+      <div id="tile7" class="board-null-tile"></div>
+      <div id="tile8" class="board-null-tile"></div>
+      <div id="tile9" class="board-null-tile"></div>
+      <div id="tile10" class="board-null-tile"></div>
+      <div id="tile11" class="board-null-tile"></div>
+      <div id="tile12" class="board-null-tile"></div>
+      <div id="tile13" class="board-null-tile"></div>
+      <div id="tile14" class="board-null-tile"></div>
+      <div id="tile15" class="board-null-tile"></div>
+      <div id="tile16" class="board-null-tile"></div>
+      <div id="game-over" class="board-background-game-over" >
+        <p class="msg-game-over">Fim de Jogo! :(</p>
+        <p class="msg-score-game-over">Sua pontuação foi &VeryThinSpace;</p>
+        
+        <p class="msg-score-game-over" id="finalscore"></p>
+        <button id="btn-play-again-game-over" class="btn-play-again-game-over">Jogar Novamente</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
